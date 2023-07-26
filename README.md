@@ -2,7 +2,7 @@
 
 StreamPayments is an innovative protocol and suite of Software Development Kits (SDKs) designed to enable real-time money streaming on the Solana blockchain. The protocol facilitates seamless and continuous money transfers from one user to another at customizable intervals, with a minimum resolution of up to one second. By leveraging the high-performance capabilities of the Solana blockchain, StreamPayments empowers developers and users to implement efficient and low-cost real-time payment solutions.
 
-´´´
+
 ## Use Cases:
 
 **Payroll**: StreamPayments can revolutionize traditional payroll systems by allowing employers to stream hourly wages to their employees in real-time. Instead of waiting for a fixed payday, employees can receive their earnings continuously throughout the workday, providing them with greater financial flexibility and access to their funds when they need them most.
@@ -32,7 +32,7 @@ Seamless integration: The protocol's SDKs make it easy for businesses to integra
 
 Overall, StreamPayments presents an innovative solution for various financial scenarios, transforming the way money is distributed and managed in real-time on the Solana blockchain.
 
-´´´
+
 ### Features of StreamPayments Protocol and SDKs:
 
 Some payment streams like ESOPs would need to be prepaid because employees would need assurance that some set of tokens are locked up in an escrow that will be given to them on the vesting schedule. Other streams like payroll and subscriptions will be unbounded - senders can top up the escrow to keep them running. Both these use cases are supported. Read more about these here.
@@ -70,7 +70,7 @@ Some payment streams like ESOPs would need to be prepaid because employees would
 
 The **Stream**Payments protocol and SDKs offer a comprehensive solution for implementing real-time money streaming on the Solana blockchain, catering to various use cases, from employee compensation to subscriptions and sponsorships. With support for prepaid and unbounded streams, vesting cliffs, cancellation, and pause features, StreamPayments provides flexibility, security, and ease of use to both developers and users.
 
-´´´
+
 ### Features
 
 **Prepaid and unbounded payment streams**: Some payment streams like ESOPs would need to be prepaid because employees would need assurance that some set of tokens are locked up in an escrow that will be given to them on the vesting schedule. Other streams like payroll and subscriptions will be unbounded - senders can top up the escrow to keep them running. Both these use cases are supported. Read more about these here.
@@ -83,7 +83,7 @@ The **Stream**Payments protocol and SDKs offer a comprehensive solution for impl
 
 **Unbounded streams solvency detection**: Unbounded streams may become insolvent if not topped up timely. There needs to be a way to identify them as quickly as possible and penalize the sender of that stream somehow. Read more about insolvency here.
 
-´´´
+
 ## Protocol
 
 #### **Stream**Payments program
@@ -98,17 +98,18 @@ An off-chain software that monitors the on-chain program and cancels streams whe
 
 An off-chain software that monitors the on-chain program and cancels streams when they become insolvent. Anyone can run this software and earn rewards for finding insolvent streams and penalizing bad actors in the ecosystem.
 
-´´´
+
 ### **Stream**Payments Dashboard
 
 Dashboard is a web interface maintained by StreamPayments where you can create and manage all of your payment streams. Just connect your wallet and start sending and receiving money real-time. The dashboard is built using the typescript client SDK.
 
 You can create a StreamPayment on the dashboard to understand the various parameters needed when creating a stream.
 
-´´´
+
 ### Client SDKs
 
 **Typescript client SDK**: A typescript SDK to interact with the on-chain StreamPayments program. Developers would use this typically when they want to create a typescript app and integrate streams into that. It's compatible with browsers and native environments (like React Native).
+
 
 ### License
 
