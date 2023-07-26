@@ -103,7 +103,7 @@ An off-chain software that monitors the on-chain program and cancels streams whe
 
 Dashboard is a web interface maintained by StreamPayments where you can create and manage all of your payment streams. Just connect your wallet and start sending and receiving money real-time. The dashboard is built using the typescript client SDK.
 
-You can create a StreamPayment on the dashboard to understand the various parameters needed when creating a stream.
+You can create a StreamPayment on the dashboard to understand the various parameters needed when creating a payment stream.
 
 
 ### Client SDKs
