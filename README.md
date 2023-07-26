@@ -1,4 +1,4 @@
-## **Stream**Payments - Real-Time Money Streaming Protocol on Solana
+# **Stream**Payments - Real-Time Money Streaming Protocol on Solana
 
 **Stream**Payments is an innovative protocol and suite of Software Development Kits (SDKs) designed to enable real-time money streaming on the Solana blockchain. The protocol facilitates seamless and continuous money transfers from one user to another at customizable intervals, with a minimum resolution of up to one second. By leveraging the high-performance capabilities of the Solana blockchain, **Stream**Payments empowers developers and users to implement efficient and low-cost real-time payment solutions.
 
