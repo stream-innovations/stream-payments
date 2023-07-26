@@ -99,18 +99,18 @@ An off-chain software that monitors the on-chain program and cancels streams whe
 An off-chain software that monitors the on-chain program and cancels streams when they become insolvent. Anyone can run this software and earn rewards for finding insolvent streams and penalizing bad actors in the ecosystem.
 
 
-### **Stream**Payments Dashboard
+## **Stream**Payments Dashboard
 
 Dashboard is a web interface maintained by StreamPayments where you can create and manage all of your payment streams. Just connect your wallet and start sending and receiving money real-time. The dashboard is built using the typescript client SDK.
 
 You can create a StreamPayment on the dashboard to understand the various parameters needed when creating a payment stream.
 
 
-### Client SDKs
+## Client SDKs
 
 **- Typescript client SDK**: A typescript SDK to interact with the on-chain StreamPayments program. Developers would use this typically when they want to create a typescript app and integrate streams into that. It's compatible with browsers and native environments (like React Native).
 
 
-### License
+## License
 
 Licensed under MIT license (LICENSE or opensource.org/licenses/MIT)
